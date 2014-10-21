@@ -662,7 +662,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="kst-tZ-GPt" kind="modal" id="rmn-KL-DlJ"/>
+                                            <segue destination="uZ4-wP-OEJ" kind="modal" id="H0t-Xp-ejp"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -875,7 +875,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="jg3-oK-cXN" kind="modal" id="UZy-gv-Wov"/>
+                                            <segue destination="uZ4-wP-OEJ" kind="modal" id="oOb-j1-DkM"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -942,9 +942,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="UZy-gv-Wov"/>
-        <segue reference="xXZ-op-r1T"/>
+        <segue reference="H0t-Xp-ejp"/>
         <segue reference="4Dc-PZ-cQ3"/>
-        <segue reference="rmn-KL-DlJ"/>
+        <segue reference="xXZ-op-r1T"/>
     </inferredMetricsTieBreakers>
 </document>
