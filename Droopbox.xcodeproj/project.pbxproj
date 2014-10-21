@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D923717F19F5F49000B26C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D923717D19F5F49000B26C27 /* Main.storyboard */; };
+		D923718119F5F6F700B26C27 /* SettingsScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D923718019F5F6F700B26C27 /* SettingsScrollViewController.swift */; };
+		D923718319F5FB1600B26C27 /* PhotosScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D923718219F5FB1600B26C27 /* PhotosScrollViewController.swift */; };
+		D923718519F6231300B26C27 /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D923718419F6231300B26C27 /* SignOutViewController.swift */; };
+		D923718719F6233D00B26C27 /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D923718619F6233D00B26C27 /* ForgotPassViewController.swift */; };
 		D98CDA6019F0DBCC0060F558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CDA5F19F0DBCC0060F558 /* AppDelegate.swift */; };
 		D98CDA6219F0DBCC0060F558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CDA6119F0DBCC0060F558 /* ViewController.swift */; };
-		D98CDA6519F0DBCC0060F558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98CDA6319F0DBCC0060F558 /* Main.storyboard */; };
 		D98CDA6719F0DBCC0060F558 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98CDA6619F0DBCC0060F558 /* Images.xcassets */; };
 		D98CDA6A19F0DBCC0060F558 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98CDA6819F0DBCC0060F558 /* LaunchScreen.xib */; };
 		D98CDA7619F0DBCC0060F558 /* DroopboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CDA7519F0DBCC0060F558 /* DroopboxTests.swift */; };
+		D9E7D9DC19F0E1DB0006A939 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7D9DB19F0E1DB0006A939 /* CreateAccountViewController.swift */; };
+		D9E7D9DE19F180400006A939 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7D9DD19F180400006A939 /* CreateAccountRootViewController.swift */; };
+		D9E7D9E019F18EEF0006A939 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7D9DF19F18EEF0006A939 /* SignInRootViewController.swift */; };
+		D9E7D9E219F18F490006A939 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E7D9E119F18F490006A939 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D923717E19F5F49000B26C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D923718019F5F6F700B26C27 /* SettingsScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsScrollViewController.swift; sourceTree = "<group>"; };
+		D923718219F5FB1600B26C27 /* PhotosScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosScrollViewController.swift; sourceTree = "<group>"; };
+		D923718419F6231300B26C27 /* SignOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
+		D923718619F6233D00B26C27 /* ForgotPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
 		D98CDA5A19F0DBCC0060F558 /* Droopbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Droopbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98CDA5E19F0DBCC0060F558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D98CDA5F19F0DBCC0060F558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D98CDA6119F0DBCC0060F558 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D98CDA6419F0DBCC0060F558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D98CDA6619F0DBCC0060F558 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D98CDA6919F0DBCC0060F558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D98CDA6F19F0DBCC0060F558 /* DroopboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroopboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98CDA7419F0DBCC0060F558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D98CDA7519F0DBCC0060F558 /* DroopboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroopboxTests.swift; sourceTree = "<group>"; };
+		D9E7D9DB19F0E1DB0006A939 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		D9E7D9DD19F180400006A939 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		D9E7D9DF19F18EEF0006A939 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		D9E7D9E119F18F490006A939 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +95,18 @@
 			children = (
 				D98CDA5F19F0DBCC0060F558 /* AppDelegate.swift */,
 				D98CDA6119F0DBCC0060F558 /* ViewController.swift */,
-				D98CDA6319F0DBCC0060F558 /* Main.storyboard */,
 				D98CDA6619F0DBCC0060F558 /* Images.xcassets */,
+				D923717D19F5F49000B26C27 /* Main.storyboard */,
 				D98CDA6819F0DBCC0060F558 /* LaunchScreen.xib */,
 				D98CDA5D19F0DBCC0060F558 /* Supporting Files */,
+				D9E7D9DB19F0E1DB0006A939 /* CreateAccountViewController.swift */,
+				D9E7D9DD19F180400006A939 /* CreateAccountRootViewController.swift */,
+				D9E7D9DF19F18EEF0006A939 /* SignInRootViewController.swift */,
+				D9E7D9E119F18F490006A939 /* SignInViewController.swift */,
+				D923718019F5F6F700B26C27 /* SettingsScrollViewController.swift */,
+				D923718219F5FB1600B26C27 /* PhotosScrollViewController.swift */,
+				D923718419F6231300B26C27 /* SignOutViewController.swift */,
+				D923718619F6233D00B26C27 /* ForgotPassViewController.swift */,
 			);
 			path = Droopbox;
 			sourceTree = "<group>";
@@ -192,7 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98CDA6519F0DBCC0060F558 /* Main.storyboard in Resources */,
+				D923717F19F5F49000B26C27 /* Main.storyboard in Resources */,
 				D98CDA6A19F0DBCC0060F558 /* LaunchScreen.xib in Resources */,
 				D98CDA6719F0DBCC0060F558 /* Images.xcassets in Resources */,
 			);
@@ -212,6 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D923718719F6233D00B26C27 /* ForgotPassViewController.swift in Sources */,
+				D9E7D9E019F18EEF0006A939 /* SignInRootViewController.swift in Sources */,
+				D9E7D9DE19F180400006A939 /* CreateAccountRootViewController.swift in Sources */,
+				D9E7D9E219F18F490006A939 /* SignInViewController.swift in Sources */,
+				D9E7D9DC19F0E1DB0006A939 /* CreateAccountViewController.swift in Sources */,
+				D923718519F6231300B26C27 /* SignOutViewController.swift in Sources */,
+				D923718319F5FB1600B26C27 /* PhotosScrollViewController.swift in Sources */,
+				D923718119F5F6F700B26C27 /* SettingsScrollViewController.swift in Sources */,
 				D98CDA6219F0DBCC0060F558 /* ViewController.swift in Sources */,
 				D98CDA6019F0DBCC0060F558 /* AppDelegate.swift in Sources */,
 			);
@@ -236,10 +268,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D98CDA6319F0DBCC0060F558 /* Main.storyboard */ = {
+		D923717D19F5F49000B26C27 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D98CDA6419F0DBCC0060F558 /* Base */,
+				D923717E19F5F49000B26C27 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -336,7 +368,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Droopbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -346,7 +380,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Droopbox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +441,7 @@
 				D98CDA7B19F0DBCC0060F558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D98CDA7C19F0DBCC0060F558 /* Build configuration list for PBXNativeTarget "DroopboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +450,7 @@
 				D98CDA7E19F0DBCC0060F558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
