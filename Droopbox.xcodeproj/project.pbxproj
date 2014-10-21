@@ -12,6 +12,8 @@
 		D923718319F5FB1600B26C27 /* PhotosScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D923718219F5FB1600B26C27 /* PhotosScrollViewController.swift */; };
 		D923718519F6231300B26C27 /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D923718419F6231300B26C27 /* SignOutViewController.swift */; };
 		D923718719F6233D00B26C27 /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D923718619F6233D00B26C27 /* ForgotPassViewController.swift */; };
+		D923718919F6C90000B26C27 /* WelcomeOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D923718819F6C90000B26C27 /* WelcomeOneViewController.swift */; };
+		D923718B19F6CAD400B26C27 /* WelcomeTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D923718A19F6CAD400B26C27 /* WelcomeTwoViewController.swift */; };
 		D98CDA6019F0DBCC0060F558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CDA5F19F0DBCC0060F558 /* AppDelegate.swift */; };
 		D98CDA6219F0DBCC0060F558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CDA6119F0DBCC0060F558 /* ViewController.swift */; };
 		D98CDA6719F0DBCC0060F558 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98CDA6619F0DBCC0060F558 /* Images.xcassets */; };
@@ -39,6 +41,8 @@
 		D923718219F5FB1600B26C27 /* PhotosScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosScrollViewController.swift; sourceTree = "<group>"; };
 		D923718419F6231300B26C27 /* SignOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
 		D923718619F6233D00B26C27 /* ForgotPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
+		D923718819F6C90000B26C27 /* WelcomeOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeOneViewController.swift; sourceTree = "<group>"; };
+		D923718A19F6CAD400B26C27 /* WelcomeTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeTwoViewController.swift; sourceTree = "<group>"; };
 		D98CDA5A19F0DBCC0060F558 /* Droopbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Droopbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98CDA5E19F0DBCC0060F558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D98CDA5F19F0DBCC0060F558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				D923718219F5FB1600B26C27 /* PhotosScrollViewController.swift */,
 				D923718419F6231300B26C27 /* SignOutViewController.swift */,
 				D923718619F6233D00B26C27 /* ForgotPassViewController.swift */,
+				D923718819F6C90000B26C27 /* WelcomeOneViewController.swift */,
+				D923718A19F6CAD400B26C27 /* WelcomeTwoViewController.swift */,
 			);
 			path = Droopbox;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 			files = (
 				D923718719F6233D00B26C27 /* ForgotPassViewController.swift in Sources */,
 				D9E7D9E019F18EEF0006A939 /* SignInRootViewController.swift in Sources */,
+				D923718B19F6CAD400B26C27 /* WelcomeTwoViewController.swift in Sources */,
 				D9E7D9DE19F180400006A939 /* CreateAccountRootViewController.swift in Sources */,
 				D9E7D9E219F18F490006A939 /* SignInViewController.swift in Sources */,
 				D9E7D9DC19F0E1DB0006A939 /* CreateAccountViewController.swift in Sources */,
@@ -246,6 +253,7 @@
 				D923718119F5F6F700B26C27 /* SettingsScrollViewController.swift in Sources */,
 				D98CDA6219F0DBCC0060F558 /* ViewController.swift in Sources */,
 				D98CDA6019F0DBCC0060F558 /* AppDelegate.swift in Sources */,
+				D923718919F6C90000B26C27 /* WelcomeOneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

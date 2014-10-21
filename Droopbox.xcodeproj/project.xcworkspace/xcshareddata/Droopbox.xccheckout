@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>164B03D1-BA66-4B8C-A13E-E95AE95DF4F7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Droopbox</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F269345C2EE5CA01611508F40151DCCD1AA8B0D9</key>
+		<string>https://github.com/ericpron/Droopbox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Droopbox.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F269345C2EE5CA01611508F40151DCCD1AA8B0D9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ericpron/Droopbox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F269345C2EE5CA01611508F40151DCCD1AA8B0D9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F269345C2EE5CA01611508F40151DCCD1AA8B0D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Droopbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>

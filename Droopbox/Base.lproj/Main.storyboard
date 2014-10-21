@@ -62,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="1392" y="359"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome Two View Controller-->
         <scene sceneID="2YA-O0-IVd">
             <objects>
-                <viewController id="S5K-gt-Brw" customClass="ViewController" customModule="Droopbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="S5K-gt-Brw" customClass="WelcomeTwoViewController" customModule="Droopbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dp7-qo-yLo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,11 +77,13 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SO7-ia-7jh">
                                 <rect key="frame" x="10" y="10" width="321" height="506"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uZ4-wP-OEJ" kind="modal" modalTransitionStyle="crossDissolve" id="pse-1R-4qi"/>
+                                    <outletCollection property="gestureRecognizers" destination="0CA-Yk-DIk" appends="YES" id="47f-aU-hFZ"/>
+                                    <segue destination="uZ4-wP-OEJ" kind="modal" identifier="secondSegue" modalTransitionStyle="crossDissolve" id="pse-1R-4qi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -89,13 +91,19 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sZx-wi-Cyu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="0CA-Yk-DIk">
+                    <connections>
+                        <action selector="didSwipe:" destination="S5K-gt-Brw" id="Kuu-i4-Joh"/>
+                        <outlet property="delegate" destination="S5K-gt-Brw" id="v8V-To-JIz"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="634" y="359"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome One View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Droopbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="WelcomeOneViewController" customModule="Droopbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -107,11 +115,13 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IK7-lV-uhB">
                                 <rect key="frame" x="0.0" y="20" width="321" height="506"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="S5K-gt-Brw" kind="modal" modalTransitionStyle="crossDissolve" id="lZU-D5-0gd"/>
+                                    <outletCollection property="gestureRecognizers" destination="aiw-0f-rvu" appends="YES" id="gnV-Xp-1ob"/>
+                                    <segue destination="S5K-gt-Brw" kind="modal" identifier="firstSegue" modalTransitionStyle="crossDissolve" id="lZU-D5-0gd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -119,6 +129,12 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="aiw-0f-rvu">
+                    <connections>
+                        <action selector="didSwipe:" destination="vXZ-lx-hvc" id="pJb-Qb-5co"/>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="UJp-Xy-Oeh"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="272" y="359"/>
         </scene>
@@ -942,8 +958,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="H0t-Xp-ejp"/>
-        <segue reference="4Dc-PZ-cQ3"/>
+        <segue reference="pse-1R-4qi"/>
         <segue reference="xXZ-op-r1T"/>
+        <segue reference="4Dc-PZ-cQ3"/>
     </inferredMetricsTieBreakers>
 </document>
